@@ -1,6 +1,6 @@
 name: flutter_nested
 description: Lists that support nested scrolling can customize the header and the number of lines displayed per line.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/crazycodeboy/flutter_nested
 
 environment:
