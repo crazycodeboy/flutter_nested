@@ -15,7 +15,7 @@ Lists that support nested scrolling can customize the header and the number of l
 
 ## Examples
 
-* [Examples](https://github.com/crazycodeboy/flutter_nested/tree/master/examples)
+* [Examples](https://github.com/crazycodeboy/flutter_nested/tree/master/example)
 
 ![flutter_nested](https://raw.githubusercontent.com/crazycodeboy/flutter_nested/master/screenshot/flutter_nested.png)
 
