@@ -47,10 +47,10 @@ Props   |  Type     | Optional | Description
 ------- | -------- | -------- | -----------
 headers|List<Widget>|true|Define the head of the list
 itemCount|int|false|The number of items except head
-itemBuilder|false|Called to build children for the sliver
-gridDelegate|false|Controls the layout of tiles in a grid
-controller|true|Controls a scrollable widget
-padding|true|The padding of list
+itemBuilder|IndexedWidgetBuilder|false|Called to build children for the sliver
+gridDelegate|SliverGridDelegate|false|Controls the layout of tiles in a grid
+controller|ScrollController|true|Controls a scrollable widget
+padding|EdgeInsetsGeometry|true|The padding of list
 
 
 ## Contribution
