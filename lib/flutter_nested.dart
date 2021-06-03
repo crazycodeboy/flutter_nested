@@ -11,15 +11,15 @@ class HiNestedScrollView extends StatelessWidget {
   final int itemCount;
   final IndexedWidgetBuilder itemBuilder;
   final SliverGridDelegate gridDelegate;
-  final ScrollController controller;
-  final EdgeInsetsGeometry padding;
+  final ScrollController? controller;
+  final EdgeInsetsGeometry? padding;
 
   const HiNestedScrollView(
-      {Key key,
+      {Key? key,
       this.headers = const [],
-      @required this.itemCount,
-      @required this.gridDelegate,
-      @required this.itemBuilder,
+      required this.itemCount,
+      required this.gridDelegate,
+      required this.itemBuilder,
       this.controller,
       this.padding})
       : super(key: key);
